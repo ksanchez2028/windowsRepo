@@ -1,4 +1,0 @@
----
-# tasks file for os-sec
-- include: user.yml 
-- include: os-hardening.yml
