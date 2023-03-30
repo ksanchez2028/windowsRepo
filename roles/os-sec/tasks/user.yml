@@ -1,0 +1,7 @@
+- name: Creating ansible user
+  ansible.windows.win_user:
+    name: "{{ sisap_usr }}"
+    password: "{{ sisap_pwd }}" 
+    state: present
+    groups:
+      - administrators
