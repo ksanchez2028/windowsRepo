@@ -1,0 +1,6 @@
+---
+- hosts: win-hardening
+  roles:
+  - os-sec
+  - apps
+
