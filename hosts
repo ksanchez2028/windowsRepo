@@ -2,7 +2,7 @@
 192.168.114.128 ansible_port=5985
 
 [win-hardening:vars]
-ansible_user=administrador
+ansible_user=ksanchez
 ansible_password=Kevinvince44
 ansible_connection=winrm
 ansible_winrm_server_cert_validation=ignore
